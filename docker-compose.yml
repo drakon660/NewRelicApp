@@ -1,0 +1,6 @@
+﻿services:
+  newrelicapp:
+    image: newrelicapp
+    build:
+      context: .
+      dockerfile: NewRelicApp/Dockerfile
