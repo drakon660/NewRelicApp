@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewRelicWebApp", "NewRelicWebApp\NewRelicWebApp.csproj", "{CA373CB3-5191-47A5-8C96-58C0A57BCC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewRelicWebAppClient", "NewRelicWebAppClient\NewRelicWebAppClient.csproj", "{573F4335-8347-472A-A253-55960127CC0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelicConfig", "RelicConfig\RelicConfig.csproj", "{743ADCEA-BAF5-4C66-B18B-77F9C8CF95EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +23,17 @@ Global
 		{C8EADABB-FC71-40DB-980F-0D1021570303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8EADABB-FC71-40DB-980F-0D1021570303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8EADABB-FC71-40DB-980F-0D1021570303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA373CB3-5191-47A5-8C96-58C0A57BCC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA373CB3-5191-47A5-8C96-58C0A57BCC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA373CB3-5191-47A5-8C96-58C0A57BCC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA373CB3-5191-47A5-8C96-58C0A57BCC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573F4335-8347-472A-A253-55960127CC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573F4335-8347-472A-A253-55960127CC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573F4335-8347-472A-A253-55960127CC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573F4335-8347-472A-A253-55960127CC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743ADCEA-BAF5-4C66-B18B-77F9C8CF95EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743ADCEA-BAF5-4C66-B18B-77F9C8CF95EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743ADCEA-BAF5-4C66-B18B-77F9C8CF95EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743ADCEA-BAF5-4C66-B18B-77F9C8CF95EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewRelicApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbdd5ef974496f34cb9ee5e2ccc277a9ba787bd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewRelicApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewRelicApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,6 @@
+@NewRelicWebApp_HostAddress = http://localhost:5166
+
+GET {{NewRelicWebApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

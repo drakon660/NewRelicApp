@@ -60,6 +60,115 @@
           "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets": {}
         }
       },
+      "Microsoft.Extensions.Configuration.CommandLine/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.CommandLine.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.CommandLine.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "System.Text.Json": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.UserSecrets/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/Microsoft.Extensions.Configuration.UserSecrets.props": {},
+          "buildTransitive/net6.0/Microsoft.Extensions.Configuration.UserSecrets.targets": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -88,6 +197,167 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Diagnostics/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "System.Diagnostics.DiagnosticSource": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.Configuration.CommandLine": "8.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "8.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "Microsoft.Extensions.Configuration.UserSecrets": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Diagnostics": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Configuration": "8.0.0",
+          "Microsoft.Extensions.Logging.Console": "8.0.0",
+          "Microsoft.Extensions.Logging.Debug": "8.0.0",
+          "Microsoft.Extensions.Logging.EventLog": "8.0.0",
+          "Microsoft.Extensions.Logging.EventSource": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Hosting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Hosting.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -185,6 +455,74 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.EventLog/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "System.Diagnostics.EventLog": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Logging.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.EventSource/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "System.Text.Json": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Logging.EventSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.EventSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Options/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -244,365 +582,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "NewRelic.Agent/10.27.0": {
-        "type": "package",
-        "contentFiles": {
-          "contentFiles/any/netstandard2.0/newrelic/LICENSE.txt": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/LICENSE.txt"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/NewRelic.Agent.Core.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/NewRelic.Agent.Core.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/NewRelic.Agent.Extensions.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/NewRelic.Agent.Extensions.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/NewRelic.Api.Agent.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/NewRelic.Api.Agent.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/NewRelic.Profiler.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/NewRelic.Profiler.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/README.md": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/README.md"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/THIRD_PARTY_NOTICES.txt": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/THIRD_PARTY_NOTICES.txt"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/agentinfo.json": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/agentinfo.json"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Storage.AsyncLocal.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Storage.AsyncLocal.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore6Plus.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore6Plus.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore6Plus.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore6Plus.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AwsLambda.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.AwsLambda.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AwsLambda.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.AwsLambda.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AwsSdk.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.AwsSdk.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AwsSdk.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.AwsSdk.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Bedrock.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Bedrock.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Bedrock.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Bedrock.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Kafka.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Kafka.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Kafka.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Kafka.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransit.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.MassTransit.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransit.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.MassTransit.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Misc.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Misc.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Sql.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.Sql.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.Instrumentation.xml": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.Instrumentation.xml"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.dll"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/extensions/extension.xsd": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/extensions/extension.xsd"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/libNewRelicProfiler.so": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/libNewRelicProfiler.so"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/linux-arm64/libNewRelicProfiler.so": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/linux-arm64/libNewRelicProfiler.so"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/logs/placeholder": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/logs/placeholder"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/newrelic.config": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/newrelic.config"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/newrelic.xsd": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/newrelic.xsd"
-          },
-          "contentFiles/any/netstandard2.0/newrelic/x86/NewRelic.Profiler.dll": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "newrelic/x86/NewRelic.Profiler.dll"
-          }
-        }
-      },
       "NewRelic.Agent.Api/10.27.0": {
         "type": "package",
         "compile": {
@@ -610,6 +589,163 @@
         },
         "runtime": {
           "lib/netstandard2.0/NewRelic.Api.Agent.dll": {}
+        }
+      },
+      "NewRelic.LogEnrichers.Serilog/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NewRelic.Agent.Api": "8.32.0",
+          "Serilog": "2.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NewRelic.LogEnrichers.Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NewRelic.LogEnrichers.Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Enrichers.Thread/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "4.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Serilog.Enrichers.Thread.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Enrichers.Thread.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Extensions.Hosting/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Serilog": "3.1.1",
+          "Serilog.Extensions.Logging": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Serilog.Extensions.Hosting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Extensions.Hosting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Extensions.Logging/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Serilog": "3.1.1"
+        },
+        "compile": {
+          "lib/net8.0/Serilog.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "4.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.File/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "4.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Serilog.Sinks.File.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.File.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Diagnostics.EventLog/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Text.Encodings.Web/8.0.0": {
@@ -757,6 +893,162 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Configuration.CommandLine/8.0.0": {
+      "sha512": "NZuZMz3Q8Z780nKX3ifV1fE7lS+6pynDHK71OfU4OZ1ItgvDOhyOC7E6z+JMZrAj63zRpwbdldYFk499t3+1dQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.commandline/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.CommandLine.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.CommandLine.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.CommandLine.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.CommandLine.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.CommandLine.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.CommandLine.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.xml",
+        "microsoft.extensions.configuration.commandline.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.commandline.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/8.0.0": {
+      "sha512": "plvZ0ZIpq+97gdPNNvhwvrEZ92kNml9hd1pe3idMA7svR0PztdzVLkoWLcRFgySYXUJc3kSM3Xw3mNFMo/bxRA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.environmentvariables/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.EnvironmentVariables.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "microsoft.extensions.configuration.environmentvariables.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.environmentvariables.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/8.0.0": {
+      "sha512": "McP+Lz/EKwvtCv48z0YImw+L1gi1gy5rHhNaNIY2CrjloV+XY8gydT8DjMR6zWeL13AFK+DioVpppwAuO1Gi1w==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.fileextensions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.FileExtensions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.FileExtensions.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.fileextensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Json/8.0.0": {
+      "sha512": "C2wqUoh9OmRL1akaCcKSTmRU8z0kckfImG7zLNI8uyi47Lp+zd5LWAD17waPQEqCz3ioWOCrFUo+JJuoeZLOBw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.json/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.Json.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Json.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.xml",
+        "microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.UserSecrets/8.0.0": {
+      "sha512": "ihDHu2dJYQird9pl2CbdwuNDfvCZdOS0S7SPlNfhPt0B81UTT+yyZKz2pimFZGUp3AfuBRnqUCxB2SjsZKHVUw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.usersecrets/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.UserSecrets.targets",
+        "buildTransitive/net462/Microsoft.Extensions.Configuration.UserSecrets.props",
+        "buildTransitive/net462/Microsoft.Extensions.Configuration.UserSecrets.targets",
+        "buildTransitive/net6.0/Microsoft.Extensions.Configuration.UserSecrets.props",
+        "buildTransitive/net6.0/Microsoft.Extensions.Configuration.UserSecrets.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.UserSecrets.targets",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.UserSecrets.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.UserSecrets.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.UserSecrets.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.UserSecrets.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.xml",
+        "microsoft.extensions.configuration.usersecrets.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.usersecrets.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection/8.0.0": {
       "sha512": "V8S3bsm50ig6JSyrbcJJ8bW2b9QLGouz+G1miK3UTaOWmMtFwNNNzUf4AleyDWUmTrWMLNnFSLEQtxmxgNQnNQ==",
       "type": "package",
@@ -818,6 +1110,216 @@
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics/8.0.0": {
+      "sha512": "3PZp/YSkIXrF7QK7PfC1bkyRYwqOHpWFad8Qx+4wkuumAeXo1NHaxpS9LboNA9OvNSAu+QOVlXbMyoY+pHSqcw==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Diagnostics.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Diagnostics.targets",
+        "lib/net462/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.xml",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.xml",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.xml",
+        "microsoft.extensions.diagnostics.8.0.0.nupkg.sha512",
+        "microsoft.extensions.diagnostics.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.Abstractions/8.0.0": {
+      "sha512": "JHYCQG7HmugNYUhOl368g+NMxYE/N/AiclCYRNlgCY9eVyiBkOHMwK4x60RYMxv9EL3+rmj1mqHvdCiPpC+D4Q==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Diagnostics.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Diagnostics.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.diagnostics.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+      "sha512": "ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
+      "sha512": "UboiXxpPUpwulHvIAVE36Knq0VSHaAmfrFkegLyBZeaADuKezJ/AIXYAW8F5GBlGk/VaibN2k/Zn1ca8YAfVdA==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.physical/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Physical.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Physical.targets",
+        "lib/net462/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net462/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/net7.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net7.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {
+      "sha512": "OK+670i7esqlQrPjdIKRbsyMCe9g5kSLpRRQGSr4Q58AOYEe/hCnfLZprh7viNisSUUQZmMrbbuDaIrP+V1ebQ==",
+      "type": "package",
+      "path": "microsoft.extensions.filesystemglobbing/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileSystemGlobbing.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileSystemGlobbing.targets",
+        "lib/net462/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net462/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net7.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Hosting/8.0.0": {
+      "sha512": "ItYHpdqVp5/oFLT5QqbopnkKlyFG9EW/9nhM6/yfObeKt6Su0wkBio6AizgRHGNwhJuAtlE5VIjow5JOTrip6w==",
+      "type": "package",
+      "path": "microsoft.extensions.hosting/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Hosting.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Hosting.targets",
+        "lib/net462/Microsoft.Extensions.Hosting.dll",
+        "lib/net462/Microsoft.Extensions.Hosting.xml",
+        "lib/net6.0/Microsoft.Extensions.Hosting.dll",
+        "lib/net6.0/Microsoft.Extensions.Hosting.xml",
+        "lib/net7.0/Microsoft.Extensions.Hosting.dll",
+        "lib/net7.0/Microsoft.Extensions.Hosting.xml",
+        "lib/net8.0/Microsoft.Extensions.Hosting.dll",
+        "lib/net8.0/Microsoft.Extensions.Hosting.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.xml",
+        "microsoft.extensions.hosting.8.0.0.nupkg.sha512",
+        "microsoft.extensions.hosting.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/8.0.0": {
+      "sha512": "AG7HWwVRdCHlaA++1oKDxLsXIBxmDpMPb3VoyOoAghEWnkUvEAdYQUwnV4jJbAaa/nMYNiEh5ByoLauZBEiovg==",
+      "type": "package",
+      "path": "microsoft.extensions.hosting.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Hosting.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Hosting.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -985,6 +1487,94 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Logging.Debug/8.0.0": {
+      "sha512": "dt0x21qBdudHLW/bjMJpkixv858RRr8eSomgVbU8qljOyfrfDGi1JQvpF9w8S7ziRPtRKisuWaOwFxJM82GxeA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.debug/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.Debug.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Debug.targets",
+        "lib/net462/Microsoft.Extensions.Logging.Debug.dll",
+        "lib/net462/Microsoft.Extensions.Logging.Debug.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Debug.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Debug.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.Debug.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.Debug.xml",
+        "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll",
+        "lib/net8.0/Microsoft.Extensions.Logging.Debug.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.xml",
+        "microsoft.extensions.logging.debug.8.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.debug.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging.EventLog/8.0.0": {
+      "sha512": "3X9D3sl7EmOu7vQp5MJrmIJBl5XSdOhZPYXUeFfYa6Nnm9+tok8x3t3IVPLhm7UJtPOU61ohFchw8rNm9tIYOQ==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.eventlog/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.EventLog.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.EventLog.targets",
+        "lib/net462/Microsoft.Extensions.Logging.EventLog.dll",
+        "lib/net462/Microsoft.Extensions.Logging.EventLog.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.EventLog.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.EventLog.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.EventLog.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.EventLog.xml",
+        "lib/net8.0/Microsoft.Extensions.Logging.EventLog.dll",
+        "lib/net8.0/Microsoft.Extensions.Logging.EventLog.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.EventLog.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.EventLog.xml",
+        "microsoft.extensions.logging.eventlog.8.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging.EventSource/8.0.0": {
+      "sha512": "oKcPMrw+luz2DUAKhwFXrmFikZWnyc8l2RKoQwqU3KIZZjcfoJE0zRHAnqATfhRZhtcbjl/QkiY2Xjxp0xu+6w==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.eventsource/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.EventSource.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.EventSource.targets",
+        "lib/net462/Microsoft.Extensions.Logging.EventSource.dll",
+        "lib/net462/Microsoft.Extensions.Logging.EventSource.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.EventSource.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.EventSource.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.EventSource.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.EventSource.xml",
+        "lib/net8.0/Microsoft.Extensions.Logging.EventSource.dll",
+        "lib/net8.0/Microsoft.Extensions.Logging.EventSource.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.EventSource.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.EventSource.xml",
+        "microsoft.extensions.logging.eventsource.8.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.eventsource.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.Options/8.0.0": {
       "sha512": "JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
       "type": "package",
@@ -1092,256 +1682,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "NewRelic.Agent/10.27.0": {
-      "sha512": "sJ9bkNvn9dgIALHC8th2aW+vikLRFtN0JGrNMV8SlB/WSsnKdy51BOwUwhtx1svW1e1Qpo7AO/pIYYRMgrn+8g==",
-      "type": "package",
-      "path": "newrelic.agent/10.27.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/newrelic/LICENSE.txt",
-        "content/newrelic/NewRelic.Agent.Core.dll",
-        "content/newrelic/NewRelic.Agent.Extensions.dll",
-        "content/newrelic/NewRelic.Profiler.dll",
-        "content/newrelic/THIRD_PARTY_NOTICES.txt",
-        "content/newrelic/agentinfo.json",
-        "content/newrelic/extensions/NewRelic.Providers.Storage.AsyncLocal.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Storage.CallContext.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Storage.HttpContext.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Storage.OperationContext.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.AspNet.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.AspNet.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.AwsSdk.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.AwsSdk.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Bedrock.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Bedrock.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Couchbase.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Couchbase.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.HttpWebRequest.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.HttpWebRequest.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Kafka.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Kafka.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransit.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransit.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Misc.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Msmq.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Msmq.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Mvc3.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Mvc3.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.OpenRasta.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.OpenRasta.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Owin.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Owin.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.RestSharp.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.RestSharp.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.ScriptHandlerFactory.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.ScriptHandlerFactory.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.ServiceStackRedis.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.ServiceStackRedis.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Wcf3.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Wcf3.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi1.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi1.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi2.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi2.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebOptimization.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebOptimization.dll",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebServices.Instrumentation.xml",
-        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebServices.dll",
-        "content/newrelic/extensions/extension.xsd",
-        "content/newrelic/grpc_csharp_ext.x64.dll",
-        "content/newrelic/grpc_csharp_ext.x86.dll",
-        "content/newrelic/logs/placeholder",
-        "content/newrelic/newrelic.config",
-        "content/newrelic/newrelic.xsd",
-        "content/newrelic/x86/NewRelic.Profiler.dll",
-        "contentFiles/any/net462/newrelic/LICENSE.txt",
-        "contentFiles/any/net462/newrelic/NewRelic.Agent.Core.dll",
-        "contentFiles/any/net462/newrelic/NewRelic.Agent.Extensions.dll",
-        "contentFiles/any/net462/newrelic/NewRelic.Profiler.dll",
-        "contentFiles/any/net462/newrelic/THIRD_PARTY_NOTICES.txt",
-        "contentFiles/any/net462/newrelic/agentinfo.json",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Storage.AsyncLocal.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Storage.CallContext.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Storage.HttpContext.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Storage.OperationContext.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.AspNet.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.AspNet.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.AwsSdk.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.AwsSdk.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Bedrock.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Bedrock.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Couchbase.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Couchbase.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.HttpWebRequest.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.HttpWebRequest.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Kafka.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Kafka.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransit.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransit.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Misc.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Msmq.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Msmq.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Mvc3.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Mvc3.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.OpenRasta.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.OpenRasta.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Owin.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Owin.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.RestSharp.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.RestSharp.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.ScriptHandlerFactory.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.ScriptHandlerFactory.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.ServiceStackRedis.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.ServiceStackRedis.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Wcf3.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.Wcf3.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi1.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi1.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi2.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi2.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.WebOptimization.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.WebOptimization.dll",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.WebServices.Instrumentation.xml",
-        "contentFiles/any/net462/newrelic/extensions/NewRelic.Providers.Wrapper.WebServices.dll",
-        "contentFiles/any/net462/newrelic/extensions/extension.xsd",
-        "contentFiles/any/net462/newrelic/grpc_csharp_ext.x64.dll",
-        "contentFiles/any/net462/newrelic/grpc_csharp_ext.x86.dll",
-        "contentFiles/any/net462/newrelic/logs/placeholder",
-        "contentFiles/any/net462/newrelic/newrelic.config",
-        "contentFiles/any/net462/newrelic/newrelic.xsd",
-        "contentFiles/any/net462/newrelic/x86/NewRelic.Profiler.dll",
-        "contentFiles/any/netstandard2.0/newrelic/LICENSE.txt",
-        "contentFiles/any/netstandard2.0/newrelic/NewRelic.Agent.Core.dll",
-        "contentFiles/any/netstandard2.0/newrelic/NewRelic.Agent.Extensions.dll",
-        "contentFiles/any/netstandard2.0/newrelic/NewRelic.Api.Agent.dll",
-        "contentFiles/any/netstandard2.0/newrelic/NewRelic.Profiler.dll",
-        "contentFiles/any/netstandard2.0/newrelic/README.md",
-        "contentFiles/any/netstandard2.0/newrelic/THIRD_PARTY_NOTICES.txt",
-        "contentFiles/any/netstandard2.0/newrelic/agentinfo.json",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Storage.AsyncLocal.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore6Plus.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore6Plus.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AwsLambda.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AwsLambda.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AwsSdk.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AwsSdk.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Bedrock.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Bedrock.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Kafka.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Kafka.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransit.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransit.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MassTransitLegacy.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Misc.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.Instrumentation.xml",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.dll",
-        "contentFiles/any/netstandard2.0/newrelic/extensions/extension.xsd",
-        "contentFiles/any/netstandard2.0/newrelic/libNewRelicProfiler.so",
-        "contentFiles/any/netstandard2.0/newrelic/linux-arm64/libNewRelicProfiler.so",
-        "contentFiles/any/netstandard2.0/newrelic/logs/placeholder",
-        "contentFiles/any/netstandard2.0/newrelic/newrelic.config",
-        "contentFiles/any/netstandard2.0/newrelic/newrelic.xsd",
-        "contentFiles/any/netstandard2.0/newrelic/x86/NewRelic.Profiler.dll",
-        "images/icon.png",
-        "newrelic.agent.10.27.0.nupkg.sha512",
-        "newrelic.agent.nuspec",
-        "tools/NewRelicHelper.psm1",
-        "tools/install.ps1"
-      ]
-    },
     "NewRelic.Agent.Api/10.27.0": {
       "sha512": "UAevUaXGjlTgcaxs8FS9F1rUWuORHNGugx2RrMkDabvkhreNE5xVGoIHH1bvLjptkklbd793J8u9Vc9FCEEooA==",
       "type": "package",
@@ -1360,6 +1700,230 @@
         "tools/NewRelicHelper.psm1",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "NewRelic.LogEnrichers.Serilog/1.2.0": {
+      "sha512": "MKKjTSiqhOmyv2wzo5t8jS0Knmz6/Xoh5XajuPMXz3g8ZgV/l7UofK/ER9tco8olBN67OpLrx4gTYsVzM0hZAA==",
+      "type": "package",
+      "path": "newrelic.logenrichers.serilog/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/NewRelic.LogEnrichers.Serilog.dll",
+        "lib/net462/NewRelic.LogEnrichers.Serilog.xml",
+        "lib/netstandard2.0/NewRelic.LogEnrichers.Serilog.dll",
+        "lib/netstandard2.0/NewRelic.LogEnrichers.Serilog.xml",
+        "newrelic-icon.png",
+        "newrelic.logenrichers.serilog.1.2.0.nupkg.sha512",
+        "newrelic.logenrichers.serilog.nuspec"
+      ]
+    },
+    "Serilog/4.0.0": {
+      "sha512": "2jDkUrSh5EofOp7Lx5Zgy0EB+7hXjjxE2ktTb1WVQmU00lDACR2TdROGKU0K1pDTBSJBN1PqgYpgOZF8mL7NJw==",
+      "type": "package",
+      "path": "serilog/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/Serilog.dll",
+        "lib/net462/Serilog.xml",
+        "lib/net471/Serilog.dll",
+        "lib/net471/Serilog.xml",
+        "lib/net6.0/Serilog.dll",
+        "lib/net6.0/Serilog.xml",
+        "lib/net8.0/Serilog.dll",
+        "lib/net8.0/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "serilog.4.0.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Enrichers.Thread/4.0.0": {
+      "sha512": "C7BK25a1rhUyr+Tp+1BYcVlBJq7M2VCHlIgnwoIUVJcicM9jYcvQK18+OeHiXw7uLPSjqWxJIp1EfaZ/RGmEwA==",
+      "type": "package",
+      "path": "serilog.enrichers.thread/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Serilog.Enrichers.Thread.dll",
+        "lib/net462/Serilog.Enrichers.Thread.xml",
+        "lib/net471/Serilog.Enrichers.Thread.dll",
+        "lib/net471/Serilog.Enrichers.Thread.xml",
+        "lib/net6.0/Serilog.Enrichers.Thread.dll",
+        "lib/net6.0/Serilog.Enrichers.Thread.xml",
+        "lib/net8.0/Serilog.Enrichers.Thread.dll",
+        "lib/net8.0/Serilog.Enrichers.Thread.xml",
+        "lib/netstandard2.0/Serilog.Enrichers.Thread.dll",
+        "lib/netstandard2.0/Serilog.Enrichers.Thread.xml",
+        "serilog-enricher-nuget.png",
+        "serilog.enrichers.thread.4.0.0.nupkg.sha512",
+        "serilog.enrichers.thread.nuspec"
+      ]
+    },
+    "Serilog.Extensions.Hosting/8.0.0": {
+      "sha512": "db0OcbWeSCvYQkHWu6n0v40N4kKaTAXNjlM3BKvcbwvNzYphQFcBR+36eQ/7hMMwOkJvAyLC2a9/jNdUL5NjtQ==",
+      "type": "package",
+      "path": "serilog.extensions.hosting/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/Serilog.Extensions.Hosting.dll",
+        "lib/net462/Serilog.Extensions.Hosting.xml",
+        "lib/net6.0/Serilog.Extensions.Hosting.dll",
+        "lib/net6.0/Serilog.Extensions.Hosting.xml",
+        "lib/net7.0/Serilog.Extensions.Hosting.dll",
+        "lib/net7.0/Serilog.Extensions.Hosting.xml",
+        "lib/net8.0/Serilog.Extensions.Hosting.dll",
+        "lib/net8.0/Serilog.Extensions.Hosting.xml",
+        "lib/netstandard2.0/Serilog.Extensions.Hosting.dll",
+        "lib/netstandard2.0/Serilog.Extensions.Hosting.xml",
+        "serilog.extensions.hosting.8.0.0.nupkg.sha512",
+        "serilog.extensions.hosting.nuspec"
+      ]
+    },
+    "Serilog.Extensions.Logging/8.0.0": {
+      "sha512": "YEAMWu1UnWgf1c1KP85l1SgXGfiVo0Rz6x08pCiPOIBt2Qe18tcZLvdBUuV5o1QHvrs8FAry9wTIhgBRtjIlEg==",
+      "type": "package",
+      "path": "serilog.extensions.logging/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Serilog.Extensions.Logging.dll",
+        "lib/net462/Serilog.Extensions.Logging.xml",
+        "lib/net6.0/Serilog.Extensions.Logging.dll",
+        "lib/net6.0/Serilog.Extensions.Logging.xml",
+        "lib/net7.0/Serilog.Extensions.Logging.dll",
+        "lib/net7.0/Serilog.Extensions.Logging.xml",
+        "lib/net8.0/Serilog.Extensions.Logging.dll",
+        "lib/net8.0/Serilog.Extensions.Logging.xml",
+        "lib/netstandard2.0/Serilog.Extensions.Logging.dll",
+        "lib/netstandard2.0/Serilog.Extensions.Logging.xml",
+        "lib/netstandard2.1/Serilog.Extensions.Logging.dll",
+        "lib/netstandard2.1/Serilog.Extensions.Logging.xml",
+        "serilog-extension-nuget.png",
+        "serilog.extensions.logging.8.0.0.nupkg.sha512",
+        "serilog.extensions.logging.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Console/6.0.0": {
+      "sha512": "fQGWqVMClCP2yEyTXPIinSr5c+CBGUvBybPxjAGcf7ctDhadFhrQw03Mv8rJ07/wR5PDfFjewf2LimvXCDzpbA==",
+      "type": "package",
+      "path": "serilog.sinks.console/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/Serilog.Sinks.Console.dll",
+        "lib/net462/Serilog.Sinks.Console.xml",
+        "lib/net471/Serilog.Sinks.Console.dll",
+        "lib/net471/Serilog.Sinks.Console.xml",
+        "lib/net6.0/Serilog.Sinks.Console.dll",
+        "lib/net6.0/Serilog.Sinks.Console.xml",
+        "lib/net8.0/Serilog.Sinks.Console.dll",
+        "lib/net8.0/Serilog.Sinks.Console.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Console.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Console.xml",
+        "serilog.sinks.console.6.0.0.nupkg.sha512",
+        "serilog.sinks.console.nuspec"
+      ]
+    },
+    "Serilog.Sinks.File/6.0.0": {
+      "sha512": "lxjg89Y8gJMmFxVkbZ+qDgjl+T4yC5F7WSLTvA+5q0R04tfKVLRL/EHpYoJ/MEQd2EeCKDuylBIVnAYMotmh2A==",
+      "type": "package",
+      "path": "serilog.sinks.file/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Serilog.Sinks.File.dll",
+        "lib/net462/Serilog.Sinks.File.xml",
+        "lib/net471/Serilog.Sinks.File.dll",
+        "lib/net471/Serilog.Sinks.File.xml",
+        "lib/net6.0/Serilog.Sinks.File.dll",
+        "lib/net6.0/Serilog.Sinks.File.xml",
+        "lib/net8.0/Serilog.Sinks.File.dll",
+        "lib/net8.0/Serilog.Sinks.File.xml",
+        "lib/netstandard2.0/Serilog.Sinks.File.dll",
+        "lib/netstandard2.0/Serilog.Sinks.File.xml",
+        "serilog-sink-nuget.png",
+        "serilog.sinks.file.6.0.0.nupkg.sha512",
+        "serilog.sinks.file.nuspec"
+      ]
+    },
+    "System.Diagnostics.DiagnosticSource/8.0.0": {
+      "sha512": "c9xLpVz6PL9lp/djOWtk5KPDZq3cSYpmXoJQY524EOtuFl5z9ZtsotpsyrDW40U1DRnQSYvcPKEUV0X//u6gkQ==",
+      "type": "package",
+      "path": "system.diagnostics.diagnosticsource/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Diagnostics.DiagnosticSource.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.DiagnosticSource.targets",
+        "lib/net462/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net462/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net7.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net7.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net8.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net8.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
+        "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Diagnostics.EventLog/8.0.0": {
+      "sha512": "fdYxcRjQqTTacKId/2IECojlDSFvp7LP5N78+0z/xH7v/Tuw5ZAxu23Y6PTCRinqyu2ePx+Gn1098NC6jM6d+A==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Diagnostics.EventLog.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "lib/net462/System.Diagnostics.EventLog.dll",
+        "lib/net462/System.Diagnostics.EventLog.xml",
+        "lib/net6.0/System.Diagnostics.EventLog.dll",
+        "lib/net6.0/System.Diagnostics.EventLog.xml",
+        "lib/net7.0/System.Diagnostics.EventLog.dll",
+        "lib/net7.0/System.Diagnostics.EventLog.xml",
+        "lib/net8.0/System.Diagnostics.EventLog.dll",
+        "lib/net8.0/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Text.Encodings.Web/8.0.0": {
@@ -1473,10 +2037,19 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Microsoft.Extensions.DependencyInjection >= 8.0.0",
+      "Microsoft.Extensions.Hosting >= 8.0.0",
+      "Microsoft.Extensions.Hosting.Abstractions >= 8.0.0",
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Microsoft.Extensions.Logging.Console >= 8.0.0",
-      "NewRelic.Agent >= 10.27.0",
-      "NewRelic.Agent.Api >= 10.27.0"
+      "NewRelic.Agent.Api >= 10.27.0",
+      "NewRelic.LogEnrichers.Serilog >= 1.2.0",
+      "Serilog >= 4.0.0",
+      "Serilog.Enrichers.Thread >= 4.0.0",
+      "Serilog.Extensions.Hosting >= 8.0.0",
+      "Serilog.Extensions.Logging >= 8.0.0",
+      "Serilog.Sinks.Console >= 6.0.0",
+      "Serilog.Sinks.File >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -1516,6 +2089,18 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.Extensions.Hosting": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.Extensions.Hosting.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Microsoft.Extensions.Logging": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -1524,13 +2109,37 @@
             "target": "Package",
             "version": "[8.0.0, )"
           },
-          "NewRelic.Agent": {
-            "target": "Package",
-            "version": "[10.27.0, )"
-          },
           "NewRelic.Agent.Api": {
             "target": "Package",
             "version": "[10.27.0, )"
+          },
+          "NewRelic.LogEnrichers.Serilog": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "Serilog": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "Serilog.Enrichers.Thread": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "Serilog.Extensions.Hosting": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Serilog.Extensions.Logging": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Serilog.Sinks.Console": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "Serilog.Sinks.File": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [
